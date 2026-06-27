@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Gulberg Hub (Main Boulevard)",
+      "lat": 31.5204,
+      "lon": 74.3587
+    },
+    { "id": "2", "name": "Mall Road Junction", "lat": 31.5565, "lon": 74.3475 },
+    { "id": "3", "name": "Model Town Central", "lat": 31.4822, "lon": 74.3245 },
+    {
+      "id": "4",
+      "name": "Johar Town Terminal",
+      "lat": 31.4697,
+      "lon": 74.2728
+    },
+    { "id": "5", "name": "DHA Phase 3 Square", "lat": 31.4789, "lon": 74.3722 },
+    {
+      "id": "6",
+      "name": "Barkat Market (Garden Town)",
+      "lat": 31.5015,
+      "lon": 74.3321
+    }
+  ],
+  "edges": [
+    { "source": "1", "target": "2", "distance": 4.8, "traffic_factor": 1.8 },
+    { "source": "1", "target": "6", "distance": 2.5, "traffic_factor": 1.3 },
+    { "source": "2", "target": "6", "distance": 6.1, "traffic_factor": 1.5 },
+    { "source": "6", "target": "3", "distance": 3.2, "traffic_factor": 1.2 },
+    { "source": "3", "target": "4", "distance": 5.5, "traffic_factor": 1.4 },
+    { "source": "6", "target": "4", "distance": 6.8, "traffic_factor": 1.7 },
+    { "source": "1", "target": "5", "distance": 5.2, "traffic_factor": 1.9 },
+    { "source": "3", "target": "5", "distance": 4.5, "traffic_factor": 1.4 }
+  ]
+}
